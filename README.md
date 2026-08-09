@@ -1,9 +1,9 @@
-# Bring Link Aggregator Subreddits to the Fediverse
+# beyondr
 
 [![License](https://img.shields.io/github/license/tweedge/xpost-reddit-to-fediverse)](https://github.com/tweedge/xpost-reddit-to-fediverse)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)
 
-An example bot (meant for deployment in Lambda) that cross-posts **direct links** from a given subreddit to up-and-coming federated platforms, helping to seed them with content without simply linking back to Reddit.
+For folks going beyond Reddit. An example bot (meant for deployment in Lambda) that cross-posts **direct links** from a given subreddit to up-and-coming federated platforms, helping to seed them with content without simply linking back to Reddit.
 
 This posts *direct links only*, so for the example post:
 
