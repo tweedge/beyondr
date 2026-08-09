@@ -5,15 +5,22 @@ rm -rf deploy_me.zip package
 
 # install Lambda-compatible version of cryptography
 pip install \
+    --target ./package \
     --platform manylinux2014_x86_64 \
     --implementation cp \
-    --python 3.10 \
+    --python-version 3.12 \
     --only-binary=:all: --upgrade \
-    --target ./package \
     "cryptography<42"
 
-# install dependencies
-pip3 install --target ./package "urllib3<2" Mastodon.py atproto==0.0.34 dns-mollusc praw
+# install dependencies, cross-compiled for the Lambda Python 3.12 runtime so
+# that compiled wheels (e.g. atproto's libipld C extension) match the runtime
+pip3 install \
+    --target ./package \
+    --platform manylinux2014_x86_64 \
+    --implementation cp \
+    --python-version 3.12 \
+    --only-binary=:all: \
+    "urllib3>=1.26,<3" Mastodon.py atproto==0.0.34 dns-mollusc praw
 
 # build zip with all data
 cd package
