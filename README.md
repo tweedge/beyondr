@@ -15,7 +15,6 @@ This posts *direct links only*, so for the example post:
 I use this bot to cross-post my favorite link aggregator subreddits to the social media sites where I now spend my time:
 
 * From r/netsec
-  * to Mastodon at [@netsec@botsin.space](https://botsin.space/@netsec)
   * to Bluesky at [@r-netsec.bsky.social](https://bsky.app/profile/r-netsec.bsky.social)
 * From r/blueteamsec
   * to Bluesky at [@r-blueteamsec.bsky.social](https://bsky.app/profile/r-blueteamsec.bsky.social)
