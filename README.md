@@ -1,6 +1,6 @@
 # beyondr
 
-[![License](https://img.shields.io/github/license/tweedge/xpost-reddit-to-fediverse)](https://github.com/tweedge/xpost-reddit-to-fediverse)
+[![License](https://img.shields.io/github/license/tweedge/beyondr)](https://github.com/tweedge/beyondr)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)
 
 For folks going beyond Reddit. An example bot (meant for deployment in Lambda) that cross-posts **direct links** from a given subreddit to up-and-coming federated platforms, helping to seed them with content without simply linking back to Reddit.
